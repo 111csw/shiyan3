@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寻宝游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>寻宝游戏</h1>
+        <div class="status">
+            <span id="healthStatus"></span>
+            <span id="treasureStatus"></span>
+        </div>
+        <button id="startBtn">开始寻宝</button>
+        <button id="musicBtn">播放背景音乐</button>
+
+        
+        <div class="gameArea">
+            <div id="playerImage">
+                <img src="images/player.png" alt="玩家" />
+            </div>
+            <div id="output"></div>
+            <div id="eventImage" class="hidden"></div>
+        </div>
+
+        <div id="choiceButtons" class="hidden">
+            <button id="leftBtn">向左</button>
+            <button id="straightBtn">直行</button>
+            <button id="rightBtn">向右</button>
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
